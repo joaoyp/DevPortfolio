@@ -1,4 +1,4 @@
-import "./App.css";
+import "./resources/css/App.css";
 
 function App() {
   return <div className="App"></div>;
