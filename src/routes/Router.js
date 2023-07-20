@@ -6,7 +6,7 @@ import { Skills } from "../pages/Skills";
 import { Projects } from "../pages/Projects";
 import { Contact } from "../pages/Contact";
 import { Login } from "../pages/Login";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../components/Header/Navbar";
 
 export const RouterPage = () => {
   return (

@@ -1,0 +1,4 @@
+.navBar a{
+    color: theme('colors.white');
+    text-decoration: none;
+}

@@ -1,3 +1,11 @@
+import "../resources/css/Home.css";
+
 export const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <>
+      <div className="home">
+        <h1>Home</h1>
+      </div>
+    </>
+  );
 };
