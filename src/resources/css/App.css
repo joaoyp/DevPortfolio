@@ -1,7 +1,47 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;*/
+
 body{
     margin: 0;
  }
 
  html{
     background-color: theme('colors.dark');
+ }
+
+ .topbar{
+   background-color: theme('colors.greenSea');
+   margin: 0;
+   height: 10px;
+   width: 100%;
+ }
+
+ .avatar{
+   border-radius: 50%;
+   width: 300px;
+   margin-left: 50px;
+   margin-top: -120px;
+ }
+
+.darkMode{
+  width: 35px;
+}
+
+ .portugal{
+  border-radius: 50%;
+  width: 35px;
+ }
+
+ .english{
+  border-radius: 50%;
+  width: 35px;
+ }
+
+ @media (max-width: 500px) {
+  .avatar {
+    width: 150px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
  }
